@@ -188,13 +188,13 @@ export default function CredentialStuffingDetector() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-zinc-950 to-black p-6">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center mb-10">
+        <div className="md:flex justify-between items-center mb-10">
           <div>
-            <h1 className="text-5xl font-bold flex items-center gap-4">
+            <h1 className="md:text-5xl text-2xl font-bold flex items-center gap-4">
               <Shield className="text-emerald-500" size={52} />
               CredentialGuard
             </h1>
-            <p className="text-xl text-gray-400 mt-2">
+            <p className="text-xl text-gray-400 mt-2 mb-4">
               Advanced Credential Stuffing Detection System
             </p>
           </div>
